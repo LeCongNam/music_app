@@ -89,7 +89,7 @@ header h2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 18px 0 8px 0;
+    /* padding: 18px 0 8px 0; */
 }
 
 .control .btn {
@@ -211,6 +211,8 @@ header h2 {
     height:2px;
     background-color: #ec1f55;
     cursor: pointer;
+    /* transform: rotate(-90deg); */
+    margin-left: 40px;
     /* padding-top: 2px; */
 }
 
@@ -223,4 +225,10 @@ header h2 {
     text-align: center;
     line-height: 20px;
     z-index: 1000;
+}
+
+
+.night_mode{
+    background-color:#440544;
+    color: white;
 }
