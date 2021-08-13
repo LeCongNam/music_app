@@ -357,7 +357,7 @@ const app = {
         this.isRepeat = this.config.isRepeat;
         this.volume = this.config.volume;
         this.isVolumeUp = this.config.isVolumeUp;
-        this.currentSong = this.currentIndex;
+        this.currentIndex = this.currentIndex;
     }
     ,
     nextSong() {
